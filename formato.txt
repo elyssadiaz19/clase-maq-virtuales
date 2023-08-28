@@ -1,0 +1,27 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?. 
+R//Porque la capacidad de un lenguaje de programación para ser utilizado en diversos sistemas operativos está ligada a lo bien que su diseño,
+implementación y requerimientos se adapten a las particularidades y contexto de cada plataforma.
+Algunos lenguajes son concebidos con mayor portabilidad en mente, lo que les permite operar en distintos sistemas, 
+mientras que otros son afinados para un sistema específico, maximizando su rendimiento en dicho entorno.
+*************************************************************************************************************
+*************************************************************************************************************
+¿Qué tipo de máquina virtual soporta virtualBox?. 
+R//Máquinas virtuales x86/amd64,Máquinas virtuales de 64 bits,Máquinas virtuales basadas en otros sistemas operativos,Sistemas operativos invitados y anfitriones mixtos y Soporte de redes y dispositivos
+*************************************************************************************************************
+*************************************************************************************************************
+¿Qué función cumple el hypervisor en la virtualización?
+R//el hypervisor es esencial en la virtualización ya que permite la coexistencia de múltiples sistemas operativos y aplicaciones en un solo hardware físico, proporcionando aislamiento y administración efectiva de recursos.
+*************************************************************************************************************
+*************************************************************************************************************
+Si tengo más de una máquina virtual instalada, y una se rompe, 
+¿esto afecta a las demás?
+R//un fallo en una máquina virtual no debería afectar directamente a las demás.
+Sin embargo, es importante monitorear y administrar el uso de recursos, implementar medidas de seguridad y 
+seguir las mejores prácticas de virtualización para garantizar el rendimiento y la disponibilidad de todas las máquinas virtuales en el entorno.
+*************************************************************************************************************
+*************************************************************************************************************
+¿por qué?
+R//Porque la virtualización aporta múltiples capas de aislamiento y 
+control que minimizan la posibilidad de que un fallo en una máquina virtual afecte directamente a otras.
+Si bien es posible que existan excepciones o circunstancias especiales, en general,
+las técnicas de virtualización están diseñadas para garantizar la independencia y el aislamiento entre las máquinas virtuales en un entorno compartido.
